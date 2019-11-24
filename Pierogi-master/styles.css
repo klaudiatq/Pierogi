@@ -16,3 +16,9 @@ h1 {
     text-align:center;
     padding: 5px;
   }
+  ul{
+    list-style-type: square;
+  }
+  p#one{
+    font-size: 15px;
+  }

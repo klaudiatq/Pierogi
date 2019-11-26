@@ -1,6 +1,6 @@
 body {
 color: rgb(12,12,12);
-font-family: arial;
+font-family: Lucida;
 margin: auto;
 }
 h1 {
@@ -9,7 +9,7 @@ h1 {
   margin-top: 10px;
 }
   p {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 5px;
   }
   img.flaga{
@@ -18,17 +18,21 @@ h1 {
     margin-right: auto;
     width: 50%;
   }
-  table.information {
+  div.p1{
+    font-size: 22px;
+  }
+  table.table1 {
     border-collapse: collapse;
     width: 50%;
     margin: auto;
   }
-  table.information, td {
+  table.table1, td {
     border: 1px solid black;
     text-align: center;
+    font-size: 20px;
     padding: 5px;
   }
-  table.obrazki {
+  table.table2 {
     border-collapse: collapse;
     width: 50%;
     margin: auto;
@@ -36,7 +40,12 @@ h1 {
   table, td.p {
     border: 1px solid white;
     text-align: left;
+    font-size: 20px;
     padding: 5px;
+  }
+  tbody tr:nth-child(odd)
+  {
+    background: rgb(225, 240, 244);
   }
   ul{
     list-style-type: square;

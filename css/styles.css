@@ -12,22 +12,32 @@ h1 {
     font-size: 20px;
     margin-top: 5px;
   }
-  table {
+  img.flaga{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  table.information {
     border-collapse: collapse;
     width: 50%;
     margin: auto;
   }
-  table, td {
+  table.information, td {
     border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+  }
+  table.obrazki {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+  }
+  table, td.p {
+    border: 1px solid white;
     text-align: left;
     padding: 5px;
   }
   ul{
     list-style-type: square;
   }
-img.flaga{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}

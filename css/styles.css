@@ -19,19 +19,15 @@ h1 {
   }
   table, td {
     border: 1px solid black;
-    text-align: center;
+    text-align: left;
     padding: 5px;
   }
   ul{
     list-style-type: square;
   }
-div.flaga{
+img.flaga{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-}
-img{
-  margin-left: 50%;
-  margin-right: 50%;
+  width: 50%;
 }

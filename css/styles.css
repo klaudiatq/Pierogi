@@ -43,7 +43,7 @@ h1 {
     font-size: 20px;
     padding: 5px;
   }
-  tbody tr:nth-child(odd)
+  table.table2 tr:nth-child(odd)
   {
     background: rgb(225, 240, 244);
   }

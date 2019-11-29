@@ -12,6 +12,21 @@ h1 {
     font-size: 30px;
     margin-top: 5px;
   }
+  .iframer{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe iframe{
+  position: center;
+  top:0;
+  left: 0;
+  margin-left: 60px;
+  margin-right: auto;
+  width: 60%;
+  height: 50%;
+}
   img.flaga{
     display: block;
     margin-left: auto;

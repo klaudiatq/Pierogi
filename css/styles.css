@@ -22,6 +22,7 @@ div.p1{
   font-family: "impact", fantasy;
   font-size: 45px;
   margin-top: 10px;
+  background: linear-gradient(to right, red, orange, yellow, lime, blue, purple, fuchsia);
   min-height: 15vh;
   Width: 100vw
 }

@@ -6,8 +6,9 @@ margin: auto;
 h1 {
   text-align: center;
   font-family: "Lucida Sans Unicode", fantasy;
-  font-size: 70px;
+  font-size: 100px;
   margin-top: 10px;
+  transition: 2.0s ease
 }
 div {
   min-height: 15vh;
@@ -28,7 +29,7 @@ div.p1{
 }
   p {
     font-family: "Lucida Sans Unicode", sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     margin-top: 5px;
   }
   .iframer{

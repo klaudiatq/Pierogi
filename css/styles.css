@@ -9,6 +9,22 @@ h1 {
   font-size: 70px;
   margin-top: 10px;
 }
+div {
+  min-height: 15vh;
+  Width: 100vw;
+}
+div.iframe {
+  min-height: 70vh;
+  Width: 100vw;
+}
+div.p1{
+  text-align: left;
+  font-family: "impact", fantasy;
+  font-size: 45px;
+  margin-top: 10px;
+  min-height: 15vh;
+  Width: 100vw
+}
   p {
     font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 30px;
@@ -35,10 +51,6 @@ h1 {
     margin-right: auto;
     width: 50%;
   }
-  div.p1{
-    font-family: "Impact", fantasy;
-    font-size: 40px;
-  }
   table.table1 {
     border-collapse: collapse;
     width: 50%;
@@ -50,10 +62,17 @@ h1 {
     font-size: 20px;
     padding: 5px;
   }
+  img {
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 70px;
+  }
   table.table2 {
     border-collapse: collapse;
     width: 50%;
     margin: auto;
+    font-family: "Courier New", sans-serif;
   }
   table, td.p {
     border: 1px solid white;

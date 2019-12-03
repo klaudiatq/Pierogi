@@ -1,14 +1,17 @@
 body {
-color: rgb(12,12,12);
-font-family: Lucida;
-margin: auto;
+  color: rgb(12,12,12);
+  font-family: Lucida;
+  margin: auto;
 }
 h1 {
   text-align: center;
   font-family: "Lucida Sans Unicode", fantasy;
+  color:DodgerBlue;
   font-size: 100px;
   margin-top: 10px;
-  transition: 2.0s ease
+  transition: 2.0s ease;
+  background-image: url("../pol.jpeg");
+  background-repeat: repeat-x;
 }
 div {
   min-height: 15vh;
@@ -27,12 +30,14 @@ div.p1{
   min-height: 15vh;
   Width: 100vw
 }
-  p {
-    font-family: "Lucida Sans Unicode", sans-serif;
-    font-size: 27px;
-    margin-top: 5px;
-  }
-  .iframer{
+p {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 27px;
+  margin-top: 5px;
+  background-image: url("pol.jpeg");
+  background-repeat: repeat-x;
+}
+.iframer{
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
@@ -47,45 +52,45 @@ div.p1{
   width: 60%;
   height: 50%;
 }
-  img.flaga{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  table.table1 {
-    border-collapse: collapse;
-    width: 50%;
-    margin: auto;
-  }
-  table.table1, td {
-    border: 1px solid black;
-    text-align: center;
-    font-size: 20px;
-    padding: 5px;
-  }
-  img {
-    display: block;
-    padding: 20px;
-    margin: 0 auto;
-    border-radius: 70px;
-  }
-  table.table2 {
-    border-collapse: collapse;
-    width: 50%;
-    margin: auto;
-    font-family: "Courier New", sans-serif;
-  }
-  table, td.p {
-    border: 1px solid white;
-    text-align: left;
-    font-size: 20px;
-    padding: 5px;
-  }
-  table.table2 tr:nth-child(odd)
-  {
-    background: rgb(225, 240, 244);
-  }
-  ul{
-    list-style-type: square;
-  }
+img.flaga{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+table.table1 {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+}
+table.table1, td {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+}
+img {
+  display: block;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 70px;
+}
+table.table2 {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+  font-family: "Courier New", sans-serif;
+}
+table, td.p {
+  border: 1px solid white;
+  text-align: left;
+  font-size: 20px;
+  padding: 5px;
+}
+table.table2 tr:nth-child(odd)
+{
+  background: rgb(225, 240, 244);
+}
+ul{
+  list-style-type: square;
+}
